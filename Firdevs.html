@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Firdevs Meliha Topal</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="miku-thumbs-up.gif">
+
+<style>
+/* Genel stil */
+html, body, h1, h2, h3, h4, h5, h6 { margin:0; padding:0; font-family: 'Roboto', sans-serif; }
+body { background: linear-gradient(135deg, #0f1020, #11213a, #1a1b3c); color: #c0c0d0; }
+
+/* Linkler */
+a { color: #6b5b7b; text-decoration: none; transition: color 0.3s ease; }
+a:hover { color: #9b89a2; }
+
+/* Container */
+.container { max-width: 1400px; margin: 20px auto; padding: 0 15px; }
+
+/* Grid */
+.row { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; }
+.column { flex: 1; }
+.one-third { max-width: 33.3333%; }
+.two-third { flex: 2; } /* Sağ sütunu daha büyük yaptık */
+
+/* Kartlar */
+.card { background: linear-gradient(145deg, #1c1c2c, #2a2a40); border-radius: 8px; padding: 30px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.6); font-size: 1.1em; }
+img { width: 100%; border-radius: 8px; }
+
+/* Başlıklar ve paragraflar */
+h2 { color: #d0d0e0; margin-top:0; font-size: 2em; }
+h5 { color: #b0b0c0; font-size: 1.2em; }
+h6 { font-size: 1em; }
+p { line-height: 1.6; }
+
+/* Yetenek barları */
+.skill-bar { background: #2a2a40; border-radius: 12px; overflow: hidden; margin-bottom: 10px; }
+.skill-bar div { height: 20px; line-height: 20px; color: #fff; text-align: center; background: #6b5b7b; }
+
+/* Liste */
+ul { padding-left: 20px; }
+ul li { margin-bottom: 5px; }
+
+/* Footer */
+.footer { background: #1c1c2c; color: #c0c0d0; text-align: center; padding: 20px 0; margin-top: 30px; }
+.footer i { margin: 0 5px; color: #6b5b7b; transition: transform 0.3s ease, color 0.3s ease; }
+.footer i:hover { color: #9b89a2; transform: scale(1.3); }
+.footer p:last-child { font-size: 0.9em; margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+
+    <!-- Sol Sütun -->
+    <div class="column one-third">
+      <div class="card">
+        <img src="c:\Users\darks\Downloads\miku-thumbs-up.gif" alt="Avatar">
+        <h2>Firdevs Meliha Topal</h2>
+        <p><i class="fa fa-briefcase"></i> Bilgisayar Mühendisliği Öğrencisi</p>
+        <p><i class="fa fa-home"></i> Türkiye, Kocaeli 🇹🇷</p>
+        <p><i class="fa fa-envelope"></i> melihafmt@gmail.com</p>
+        <p><i class="fa fa-phone"></i> 0123456789</p>
+        <hr>
+
+        <h5>Diller</h5>
+        <p>Türkçe</p>
+        <div class="skill-bar"><div style="width:100%">100%</div></div>
+        <p>İngilizce</p>
+        <div class="skill-bar"><div style="width:55%">55%</div></div>
+      </div>
+    </div>
+
+    <!-- Sağ Sütun -->
+    <div class="column two-third">
+        <div class="card">
+  <h2><i class="fa fa-user"></i> Hakkımda</h2>
+  <h6>Firdevs Meliha Topal, 19 yaşındayım.</h6>
+  <p>Kocaeli'de yaşıyorum. Ahi Evran Üniversitesi'nde Bilgisayar Mühendisliği bölümünde öğrenimime başladım.</p>
+  <p>İleride oyun geliştirmek istiyorum ve bu alanda kendimi geliştirmek için çalışıyorum.</p>
+</div>
+
+      <div class="card">
+        <h2><i class="fa fa-graduation-cap"></i> Eğitim</h2>
+        <h6>Bilgisayar Mühendisliği</h6>
+        <p>Web geliştirme üzerine temel bilgiler, çeşitli projelerde deneyim.</p>
+        <h5>Ahi Evran Üniversitesi</h5>
+        <h6>2025 - </h6>
+        <p>Lisans</p>
+      </div>
+
+      <div class="card">
+        <h2><i class="fa fa-star"></i> İlgi Alanları</h2>
+        <ul>
+          <li>Yapay Zeka ve Makine Öğrenimi</li>
+          <li>Oyun Geliştirme</li>
+          <li>Fotoğrafçılık ve Tasarım</li>
+          <li>Teknoloji ve Yazılım Projeleri</li>
+          <li>3D Tasarım</li>
+          <li>FPS Oyunları Oynamak</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="footer">
+  <p>Sosyal medyada beni bulabilirsiniz.</p>
+  <a href="https://www.instagram.com/fmlhtp" target="_blank"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.linkedin.com/in/firdevs-meliha-topal" target="_blank"><i class="fa fa-linkedin"></i></a>
+  <p>© 2025 Firdevs Meliha Topal</p>
+</footer>
+
+</body>
+</html>
